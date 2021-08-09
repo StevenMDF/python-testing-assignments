@@ -34,3 +34,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+    - name: Release Drafter
+      uses: release-drafter/release-drafter@v5.15.0
+
